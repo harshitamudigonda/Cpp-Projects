@@ -1,0 +1,20 @@
+#include <iostream> - iostream is a header file that contains functions for basic input and output 
+operations.
+
+int main() {
+  We begin the program by invoking the main function.
+  The program works step by step in the order we write.
+  std::cout << "I like pizza" << std::endl; -> standard character out -> prints the output on the screen.
+  std::cout << "I also like sandwich" << '\n';
+  return 0; -> by returning 0 we can say that the function is successfully executed.
+}
+
+std::endl - ends the line until the text before it or you can use '\n'.
+benefit of using endl is that endl flushes the output buffer.
+
+//This is a comment. A comment is ignored. It is not used as an output or anything. 
+/*This is a multi line comment.
+Comments are used as notes for yourself or for other developers.*/
+
+
+
